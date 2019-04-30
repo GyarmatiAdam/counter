@@ -19,13 +19,13 @@ body{
     padding: 1rem;
     font-weight: 500;
     box-shadow: 3px 3px 10px 10px white;
-    background: gold;
+    background: rgb(240, 227, 157);
 }
 .counter{
     font-size: 6rem;
 }
 .btn{
-    background: greenyellow;
+    background: rgb(67, 68, 66);
     font-size: 2rem;
 }
 

@@ -2,11 +2,14 @@ let counter = document.querySelector('.counter');
 const up = document.querySelector('#up');
 const down = document.querySelector('#down');
 
+/** Counter starts with zero as default */
 let count = 0;
 
+/** Buttons has value of increasing or decreasing */
 up.addEventListener('click', increment);
 down.addEventListener('click', decrement);
 
+/** Function sets color and animation of the numbers */
 function increment(){
     count++;
     counter.innerHTML = count;
